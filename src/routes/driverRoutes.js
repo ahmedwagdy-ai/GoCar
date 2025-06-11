@@ -8,6 +8,7 @@ import {
 } from "../controllers/driverController.js";
 import upload from "../middlewares/uploadImage.js";
 import userMiddleware from "../middlewares/userMiddleware.js";
+import { verifyToken } from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
 

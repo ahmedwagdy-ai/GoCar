@@ -7,6 +7,7 @@ import {
   deleteClient,
 } from "../controllers/clientController.js";
 import userMiddleware from "../middlewares/userMiddleware.js";
+import { verifyToken } from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
 
