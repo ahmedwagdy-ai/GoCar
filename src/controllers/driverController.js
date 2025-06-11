@@ -2,6 +2,8 @@ import bcrypt from "bcryptjs";
 import uploadToCloudinary from "../middlewares/uploadToCloudinary.js";
 import logger from "../utils/logger.js";
 import User from "../models/userModel.js"
+import config from '../utils/config.js';
+import { generateToken } from "../middlewares/authMiddleware.js";
 
 export const register = async (req, res) => {
     try {
@@ -33,8 +35,10 @@ export const register = async (req, res) => {
             invitationCode
         });
         
+        const token = generateToken({ _id: newDriver._id, phoneNumber, role });
+
         await newDriver.save();
-        res.status(201).json({ success: true, message: 'Driver registered successfully', data: newDriver });
+        res.status(201).json({ success: true, message: 'Driver registered successfully', data: newDriver, token });
     }
     catch (error) {
         logger.error(`Error registering Driver: ${error.message}`);
@@ -44,7 +48,7 @@ export const register = async (req, res) => {
 
 export const getAllDrivers = async (req, res) => {
     try {
-        const Drivers = await User.find({}, { "password": 0, "__v": 0 });
+        const Drivers = await User.find({ "role": "driver" }, { "password": 0, "__v": 0 });
         res.status(200).json({ success: true, data: Drivers });
     }
     catch (error) {

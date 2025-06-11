@@ -20,7 +20,7 @@ export const loginUser = async (req, res) => {
       logger.warn(`Invalid password attempt for phone: ${phoneNumber}`);
       return res
         .status(401)
-        .json({ message: "Invalid phone number or password." });
+        .json({ message: "Invalid Phone Number or Password." });
     }
 
     const token = generateToken(user);

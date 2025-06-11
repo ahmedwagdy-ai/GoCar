@@ -1,6 +1,8 @@
 import bcrypt from "bcryptjs";
 import logger from "../utils/logger.js";
-import User from "../models/userModel.js"
+import User from "../models/userModel.js";
+import config from '../utils/config.js';
+import { generateToken } from "../middlewares/authMiddleware.js";
 
 export const register = async (req, res) => {
     try {
@@ -18,9 +20,11 @@ export const register = async (req, res) => {
             phoneNumber,
             invitationCode
         });
+
+        const token = generateToken({ _id: newClient._id, phoneNumber, role });
         
         await newClient.save();
-        res.status(201).json({ success: true, message: 'Client registered successfully', data: newClient });
+        res.status(201).json({ success: true, message: 'Client registered successfully', data: newClient, token });
     }
     catch (error) {
         logger.error(`Error registering Client: ${error.message}`);
@@ -30,7 +34,7 @@ export const register = async (req, res) => {
 
 export const getAllClients = async (req, res) => {
     try {
-        const Clients = await User.find({}, { "password": 0, "__v": 0 });
+        const Clients = await User.find({ "role": "client" }, { "password": 0, "__v": 0 });
         res.status(200).json({ success: true, data: Clients });
     }
     catch (error) {

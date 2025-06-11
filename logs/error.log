@@ -17,3 +17,17 @@
 {"level":"error","message":"Error registering Client: Cannot destructure property 'fullName' of 'req.body' as it is undefined.","timestamp":"2025-06-11T14:39:24.416Z"}
 {"level":"error","message":"Error registering Client: Cannot destructure property 'fullName' of 'req.body' as it is undefined.","timestamp":"2025-06-11T14:39:30.931Z"}
 {"level":"error","message":"Error registering Client: Cannot destructure property 'fullName' of 'req.body' as it is undefined.","timestamp":"2025-06-11T14:39:32.189Z"}
+{"level":"error","message":"Error registering Client: newUser is not defined","timestamp":"2025-06-11T15:47:55.663Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:49:17.423Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:49:27.931Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:50:55.888Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:50:57.646Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:51:42.786Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:51:44.172Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:52:01.123Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:52:02.496Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:52:03.777Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:58:04.327Z"}
+{"level":"error","message":"Error registering Client: secretOrPrivateKey must have a value","timestamp":"2025-06-11T15:58:05.574Z"}
+{"level":"error","message":"Error registering Driver: generateToken is not defined","timestamp":"2025-06-11T16:00:07.222Z"}
+{"level":"error","message":"Error registering Client: E11000 duplicate key error collection: test.users index: phoneNumber_1 dup key: { phoneNumber: \"0123456789\" }","timestamp":"2025-06-11T16:04:59.048Z"}
