@@ -5,15 +5,7 @@ import logger from "../utils/logger.js";
 const userMiddleware = async (req, res, next) => {
     try {
         const { id } = req.params;
-        const { phoneNumber } = req.body;
-
-        if (phoneNumber) {
-            const existingPhone = await User.findOne({ phoneNumber });
-            if (existingPhone) {
-                return res.status(400).json({ success: false, message: "Phone number already exists" });
-            }
-        }
-
+        
         if (id) {
             if (!mongoose.Types.ObjectId.isValid(id)) {
                 return res.status(400).json({ success: false, message: "Invalid User ID format" });

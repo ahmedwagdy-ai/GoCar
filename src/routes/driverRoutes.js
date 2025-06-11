@@ -11,13 +11,13 @@ import userMiddleware from "../middlewares/userMiddleware.js";
 
 const router = express.Router();
 
-router.post("/register", userMiddleware, upload.single("licenseImage"), register);
+router.post("/register", upload.single("licenseImage"), userMiddleware, register);
 
 router.get("/getAll", getAllDrivers);
 
 router.get("/getDriver/:id", userMiddleware, getDriverById);
 
-router.put("/update/:id", userMiddleware, updateDriver);
+router.patch("/update/:id", upload.single("licenseImage"), userMiddleware, updateDriver);
 
 router.delete("/delete/:id", userMiddleware, deleteDriver);
 

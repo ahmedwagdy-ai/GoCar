@@ -68,7 +68,19 @@ export const getDriverById = async (req, res) => {
 export const updateDriver = async (req, res) => {
     try {
         const { id } = req.params;
-        const updateDriver = await User.findByIdAndUpdate(id, req.body, { new: true });
+
+        let updateData = { ...req.body };
+
+        if (req.file) {
+            try {
+                const uploadedImage = await uploadToCloudinary(req.file.buffer);
+                updateData.licenseImage = uploadedImage;
+        } catch (error) {
+                return res.status(500).json({ success: false, message: "Image upload failed" });
+        }
+    }
+
+        const updateDriver = await User.findByIdAndUpdate(id, updateData, { new: true });
 
         res.status(200).json({ success: true, message: 'Driver updated successfully', data: updateDriver });
     }

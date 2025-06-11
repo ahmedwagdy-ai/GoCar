@@ -16,7 +16,7 @@ router.get("/getAll", getAllClients);
 
 router.get("/getClient/:id", userMiddleware, getClientById);
 
-router.put("/update/:id", userMiddleware, updateClient);
+router.patch("/update/:id", userMiddleware, updateClient);
 
 router.delete("/delete/:id", userMiddleware, deleteClient);
 
