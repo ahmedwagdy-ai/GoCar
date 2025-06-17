@@ -1,5 +1,6 @@
 import bcrypt from "bcryptjs";
-import User from "../models/userModel.js";
+import Driver from "../models/driverModel.js"
+import Client from "../models/clientModel.js";
 import logger from "../utils/logger.js";
 import { generateToken } from "../middlewares/authMiddleware.js";
 
@@ -8,11 +9,12 @@ export const loginUser = async (req, res) => {
   try {
     const { phoneNumber, password } = req.body;
 
-    const user = await User.findOne({ phoneNumber });
+    let user = await Client.findOne({ phoneNumber });
+    let userType = "Client";
 
     if (!user) {
-      logger.warn("User Not Found Try Again !");
-      return res.status(404).json({ message: "User not found." });
+        user = await Driver.findOne({ phoneNumber });
+        userType = "Driver";
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
@@ -25,14 +27,13 @@ export const loginUser = async (req, res) => {
 
     const token = generateToken(user);
 
-    logger.info(`User logged in successfully: ${phoneNumber}`);
+    logger.info(`User logged in successfully as ${userType}: ${phoneNumber}`);
 
     res.status(200).json({
       token,
       user: {
         id: user._id,
         phoneNumber: user.phoneNumber,
-        role: user.role,
       },
     });
   } catch (error) {

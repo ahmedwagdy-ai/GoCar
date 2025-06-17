@@ -1,5 +1,6 @@
 import bcrypt from "bcryptjs";
-import User from "../models/userModel.js";
+import Driver from "../models/driverModel.js"
+import Client from "../models/clientModel.js";
 import { sendOTP, verifyOTP } from "../services/otpMessage.js";
 
 // إرسال OTP لإعادة تعيين كلمة المرور
@@ -8,10 +9,13 @@ export const sendOTPForResetPassword = async (req, res) => {
 
   try {
     // البحث عن المستخدم برقم الهاتف
-    const user = await User.findOne({ phoneNumber });
+    let user = await Driver.findOne({ phoneNumber });
+    if (!user) {
+      user = await Client.findOne({ phoneNumber });
+    }
 
     if (!user) {
-      return res.status(404).json({ error: "User not found" });
+      return res.status(404).json({ error: 'User not found' });
     }
 
     // إرسال OTP لرقم الهاتف
@@ -35,10 +39,13 @@ export const resetPassword = async (req, res) => {
     }
 
     // البحث عن المستخدم برقم الهاتف
-    const user = await User.findOne({ phoneNumber });
+    let user = await Driver.findOne({ phoneNumber});
+    if (!user) {
+      user = await Client.findOne({ phoneNumber });
+    }
 
     if (!user) {
-      return res.status(404).json({ error: "User not found" });
+      return res.status(404).json({ error: 'User not found' });
     }
 
     // تحديث كلمة المرور
