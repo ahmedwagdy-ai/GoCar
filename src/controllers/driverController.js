@@ -65,11 +65,11 @@ export const getAllDrivers = async (req, res) => {
 export const getDriverById = async (req, res) => {
     try {
         const { id } = req.params;
-        const Driver = await Driver.findById(id, { password: 0, __v: 0 });
+        const driver = await Driver.findById(id, { password: 0, __v: 0 });
 
-        res.status(200).json({ success: true, data: Driver });
+        res.status(200).json({ success: true, data: driver });
     } catch (error) {
-        logger.error(`Error getting Driver by ID: ${error.message}`);
+        logger.error(`Error getting driver by ID: ${error.message}`);
         res.status(500).json({ success: false, message: "Server error" });
     }
 };

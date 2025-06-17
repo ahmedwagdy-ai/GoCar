@@ -86,3 +86,111 @@
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:45:08.603Z"}
 {"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:18:03.644Z"}
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:18:05.434Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:25:09.992Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:25:12.817Z"}
+{"level":"error","message":"Error registering Driver: Driver validation failed: email: Path `email` is required.","timestamp":"2025-06-17T21:27:28.410Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:27:28 +0000] \"POST /api/driver/register HTTP/1.1\" 500 88 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:27:28.413Z"}
+{"level":"info","message":"User logged in successfully as Driver: ahmedwagdy@gmail.com","timestamp":"2025-06-17T21:28:32.109Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:28:49.053Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:28:49 +0000] \"GET /api/driver/getDriver/68498d2783e1504989bcb408 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:28:49.054Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:28:52.246Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:28:52 +0000] \"GET /api/driver/getDriver/68498d2783e1504989bcb408 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:28:52.247Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:28:53.164Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:28:53 +0000] \"GET /api/driver/getDriver/68498d2783e1504989bcb408 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:28:53.165Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:28:54.149Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:28:54 +0000] \"GET /api/driver/getDriver/68498d2783e1504989bcb408 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:28:54.150Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:00.635Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:00 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:00.636Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:02.007Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:02 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:02.008Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:03.363Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:03 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:03.364Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:04.407Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:04 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:04.408Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:05.265Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:05 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:05.266Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:06.338Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:06 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:06.339Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:44.317Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:45.901Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:48.257Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:49.780Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:30:50.498Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:55.980Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:30:56.741Z"}
+{"level":"error","message":"Error deleting Driver: Cast to ObjectId failed for value \"68498d2783e1504989bcb408f\" (type string) at path \"_id\" for model \"Driver\"","timestamp":"2025-06-17T21:31:57.423Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:31:57 +0000] \"DELETE /api/driver/delete/68498d2783e1504989bcb408f HTTP/1.1\" 500 144 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:31:57.424Z"}
+{"level":"error","message":"Error deleting Driver: Cast to ObjectId failed for value \"68498d2783e1504989bcb40\" (type string) at path \"_id\" for model \"Driver\"","timestamp":"2025-06-17T21:32:04.502Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:32:04 +0000] \"DELETE /api/driver/delete/68498d2783e1504989bcb40 HTTP/1.1\" 500 142 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:32:04.503Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:35:27 +0000] \"PATCH /api/driver/acceptCash/6851dddb1cbeede90a9bce69 HTTP/1.1\" 404 187 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:35:27.854Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:35:54.990Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:35:56.282Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:35:57.017Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:37:53.150Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:37:54.470Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:37:57.267Z"}
+{"level":"error","message":"Error getting Client by ID: Cannot access 'Client' before initialization","timestamp":"2025-06-17T21:39:52.159Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:39:52 +0000] \"GET /api/client/getClient/6851e06ee5f7c5a7c7323da3 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:39:52.161Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:07.073Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:07.839Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:10.066Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:10.778Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:12.823Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:13.548Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:15.488Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:16.192Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:22.997Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:23.821Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:42:13.753Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:42:14.507Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:42:44.447Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:42:45.176Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:42:46.555Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:42:47.324Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:01.254Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:43:01.960Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:04.308Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:43:05.017Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:07.360Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:08.713Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:43:09.422Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:12.139Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:13.349Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:43:14.108Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:47:52 +0000] \"POST /api/driverShift/start HTTP/1.1\" 404 161 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:47:52.281Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:48:19.131Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:48:19.876Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:49:58 +0000] \"POST /api/driverShift/end/6851e2a906d28afcfd26d80d HTTP/1.1\" 404 184 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:49:58.151Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:50:02 +0000] \"POST /api/driverShift/end/6851e2a906d28afcfd26d80d HTTP/1.1\" 404 184 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:50:02.030Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:50:13.785Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:50:14.543Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:51:16 +0000] \"PATCH /api/driverShift/end/6851e2a906d28afcfd26d80d HTTP/1.1\" 400 50 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:51:16.632Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:52:04 +0000] \"PATCH /api/driverShift/getAll HTTP/1.1\" 404 163 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:52:04.862Z"}
+{"level":"error","message":"Error getting all DriverShifts: Cannot populate path `client` because it is not in your schema. Set the `strictPopulate` option to false to override.","timestamp":"2025-06-17T21:52:09.654Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:52:09 +0000] \"GET /api/driverShift/getAll HTTP/1.1\" 500 147 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:52:09.656Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:52:49.034Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:52:49.773Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:53:50.844Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:53:51.594Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:54:03.279Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:54:03.996Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:54:07.651Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:54:08.367Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:54:12.338Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:54:13.066Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:54:41 +0000] \"PATCH /api/driverShift/end/6851e2a906d28afcfd26d80d HTTP/1.1\" 400 50 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:54:41.216Z"}
+{"level":"error","message":"Error ending DriverShift: DriverShift validation failed: status: `inactive` is not a valid enum value for path `status`.","timestamp":"2025-06-17T21:54:59.595Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:54:59 +0000] \"PATCH /api/driverShift/end/6851e41199d80e50489d3ece HTTP/1.1\" 500 124 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:54:59.596Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:55:18.102Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:55:18.862Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:56:03 +0000] \"PATCH /api/driverShift/getShift/6851e41199d80e50489d3ece HTTP/1.1\" 404 190 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:56:03.772Z"}
+{"level":"error","message":"Error getting DriverShift by ID: Cannot populate path `client` because it is not in your schema. Set the `strictPopulate` option to false to override.","timestamp":"2025-06-17T21:56:11.988Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:56:11 +0000] \"GET /api/driverShift/getShift/6851e41199d80e50489d3ece HTTP/1.1\" 500 147 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:56:11.990Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:56:23.494Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:56:24.512Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:58:38.936Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:58:39.670Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:58:45.250Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:58:45.963Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:58:51.347Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:58:52.085Z"}

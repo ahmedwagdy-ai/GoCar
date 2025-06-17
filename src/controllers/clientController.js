@@ -35,7 +35,7 @@ export const register = async (req, res) => {
 
 export const getAllClients = async (req, res) => {
     try {
-        const Clients = await Client.find({ "role": "client" }, { "password": 0, "__v": 0 });
+        const Clients = await Client.find({}, { "password": 0, "__v": 0 });
         res.status(200).json({ success: true, data: Clients });
     }
     catch (error) {
@@ -47,11 +47,11 @@ export const getAllClients = async (req, res) => {
 export const getClientById = async (req, res) => {
     try {
         const { id } = req.params;
-        const Client = await Client.findById(id, { password: 0, __v: 0 });
+        const client = await Client.findById(id, { password: 0, __v: 0 });
 
-        res.status(200).json({ success: true, data: Client });
+        res.status(200).json({ success: true, data: client });
     } catch (error) {
-        logger.error(`Error getting Client by ID: ${error.message}`);
+        logger.error(`Error getting client by ID: ${error.message}`);
         res.status(500).json({ success: false, message: "Server error" });
     }
 };
@@ -78,7 +78,7 @@ export const deleteClient = async (req, res) => {
         res.status(200).json({ success: true, message: 'Client deleted successfully' });
     }
     catch (error) {
-        logger.error(`Error deleting Client: ${error.message}`);
+        logger.error(`Error deleting client: ${error.message}`);
         res.status(500).json({ success: false, message: error.message });
     }
 };

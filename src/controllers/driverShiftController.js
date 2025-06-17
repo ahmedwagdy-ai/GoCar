@@ -41,7 +41,6 @@ export const startShift = async (req, res) => {
 export const endShift = async (req, res) => {
   try {
     const { id } = req.params; 
-
     const shift = await DriverShift.findById(id);
 
     if (shift.endTime) {
@@ -49,7 +48,7 @@ export const endShift = async (req, res) => {
     }
 
     shift.endTime = new Date();
-    shift.status = "inactive";
+    shift.status = "ended";
     await shift.save();
 
     const driver = await Driver.findById(shift.driver);
@@ -69,7 +68,7 @@ export const endShift = async (req, res) => {
 // get all
 export const getAllShifts = async (req, res) => {
   try {
-    const shifts = await DriverShift.find().populate("client driver");
+    const shifts = await DriverShift.find();
     res.status(200).json({ success: true, data: shifts });
   } catch (error) {
     logger.error(`Error getting all DriverShifts: ${error.message}`);
@@ -82,7 +81,7 @@ export const getAllShifts = async (req, res) => {
 export const getShiftById = async (req, res) => {
   try {
     const { id } = req.params;
-    const shift = await DriverShift.findById(id).populate("client driver");
+    const shift = await DriverShift.findById(id);
 
     res.status(200).json({ success: true, data: shift });
   } catch (error) {
@@ -98,7 +97,7 @@ export const updateShift = async (req, res) => {
     const updateData = { ...req.body };
     const updatedShift = await DriverShift.findByIdAndUpdate(id, updateData, { new: true });
   
-    res.status(200).json({ success: true, message: "DriverShift updated", data: updatedShift });
+    res.status(200).json({ success: true, message: "DriverShift updated successfully", data: updatedShift });
   } catch (error) {
     logger.error(`Error updating DriverShift: ${error.message}`);
     res.status(500).json({ success: false, message: error.message });
@@ -111,7 +110,7 @@ export const deleteShift = async (req, res) => {
     const { id } = req.params;
     await DriverShift.findByIdAndDelete(id); 
 
-    res.status(200).json({ success: true, message: "DriverShift deleted" });
+    res.status(200).json({ success: true, message: "DriverShift deleted successfully" });
   } catch (error) {
     logger.error(`Error deleting DriverShift: ${error.message}`);
     res.status(500).json({ success: false, message: error.message });

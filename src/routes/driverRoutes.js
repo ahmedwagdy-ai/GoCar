@@ -29,8 +29,8 @@ router.patch("/beOnline/:id", updateStatusOnline);
 
 router.patch("/beOffline/:id", updateStatusOffline);
 
-router.patch("acceptCash/:id", acceptCash);
+router.patch("/acceptCash/:id", acceptCash);
 
-router.patch("refuseCash/:id", refuseCash);
+router.patch("/refuseCash/:id", refuseCash);
 
 export default router;

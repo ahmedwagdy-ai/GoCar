@@ -11,7 +11,7 @@ import { verifyToken } from "../middlewares/authMiddleware.js";
 
 const router = express.Router();
 
-router.post("/start/:id", startShift);
+router.post("/start", startShift);
 
 router.patch("/end/:id", endShift);
 
