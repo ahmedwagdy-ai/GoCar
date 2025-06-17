@@ -1,15 +1,17 @@
 import bcrypt from "bcryptjs";
 import uploadToCloudinary from "../middlewares/uploadToCloudinary.js";
 import logger from "../utils/logger.js";
-import User from "../models/userModel.js"
+import Driver from "../models/driverModel.js"
 import config from '../utils/config.js';
 import { generateToken } from "../middlewares/authMiddleware.js";
 
+
+// register
 export const register = async (req, res) => {
     try {
         const { fullName, password, role, phoneNumber, companyNumber, invitationCode } = req.body;
         
-        await User.findOne({ phoneNumber });
+        await Driver.findOne({ phoneNumber });
 
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(password, salt);
@@ -25,7 +27,7 @@ export const register = async (req, res) => {
             }
         }
 
-        const newDriver = new User({
+        const newDriver = new Driver({
             fullName, 
             password: hashedPassword,
             role,
@@ -46,9 +48,10 @@ export const register = async (req, res) => {
     }
 }
 
+// get all drivers
 export const getAllDrivers = async (req, res) => {
     try {
-        const Drivers = await User.find({ "role": "driver" }, { "password": 0, "__v": 0 });
+        const Drivers = await Driver.find({}, { "password": 0, "__v": 0 });
         res.status(200).json({ success: true, data: Drivers });
     }
     catch (error) {
@@ -57,10 +60,11 @@ export const getAllDrivers = async (req, res) => {
     }
 }
 
+// get driver by id
 export const getDriverById = async (req, res) => {
     try {
         const { id } = req.params;
-        const Driver = await User.findById(id, { password: 0, __v: 0 });
+        const Driver = await Driver.findById(id, { password: 0, __v: 0 });
 
         res.status(200).json({ success: true, data: Driver });
     } catch (error) {
@@ -69,6 +73,7 @@ export const getDriverById = async (req, res) => {
     }
 };
 
+// update
 export const updateDriver = async (req, res) => {
     try {
         const { id } = req.params;
@@ -84,7 +89,7 @@ export const updateDriver = async (req, res) => {
         }
     }
 
-        const updateDriver = await User.findByIdAndUpdate(id, updateData, { new: true });
+        const updateDriver = await Driver.findByIdAndUpdate(id, updateData, { new: true });
 
         res.status(200).json({ success: true, message: 'Driver updated successfully', data: updateDriver });
     }
@@ -94,16 +99,69 @@ export const updateDriver = async (req, res) => {
     }
 };
 
-
+// delete
 export const deleteDriver = async (req, res) => {
     try {
         const { id } = req.params;
-        await User.findByIdAndDelete(id);
+        await Driver.findByIdAndDelete(id);
 
         res.status(200).json({ success: true, message: 'Driver deleted successfully' });
     }
     catch (error) {
         logger.error(`Error deleting Driver: ${error.message}`);
+        res.status(500).json({ success: false, message: error.message });
+    }
+};
+
+// update status (online)
+export const updateStatusOnline = async (req, res) => {
+    try {
+        const { id } = req.params; 
+        const updatedDriver = await Driver.findByIdAndUpdate( id, { status: "online" }, { new: true });
+
+        res.status(200).json({ success: true, message: "Driver status updated to online", data: updatedDriver });
+    } catch (error) {
+        logger.error(`Error updating Driver status: ${error.message}`);
+        res.status(500).json({ success: false, message: error.message });
+    }
+};
+
+// update status (offline)
+export const updateStatusOffline = async (req, res) => {
+    try {
+        const { id } = req.params; 
+        const updatedDriver = await Driver.findByIdAndUpdate( id, { status: "offline" }, { new: true });
+
+        res.status(200).json({ success: true, message: "Driver status updated to offline", data: updatedDriver });
+    } catch (error) {
+        logger.error(`Error updating Driver status: ${error.message}`);
+        res.status(500).json({ success: false, message: error.message });
+    }
+};
+
+
+// accept cash
+export const acceptCash = async (req, res) => {
+    try {
+        const { id } = req.params; 
+        const updatedDriver = await Driver.findByIdAndUpdate( id, { acceptCash: true }, { new: true });
+
+        res.status(200).json({ success: true, message: "Now! Driver accepts cash", data: updatedDriver });
+    } catch (error) {
+        logger.error(`Error updating Driver: ${error.message}`);
+        res.status(500).json({ success: false, message: error.message });
+    }
+};
+
+// refuse cash
+export const refuseCash = async (req, res) => {
+    try {
+        const { id } = req.params; 
+        const updatedDriver = await Driver.findByIdAndUpdate( id, { acceptCash: false }, { new: true });
+
+        res.status(200).json({ success: true, message: "Now! Driver refuses cash", data: updatedDriver });
+    } catch (error) {
+        logger.error(`Error updating Driver: ${error.message}`);
         res.status(500).json({ success: false, message: error.message });
     }
 };

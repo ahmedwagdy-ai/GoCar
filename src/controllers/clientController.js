@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 import logger from "../utils/logger.js";
-import User from "../models/userModel.js";
+import Client from "../models/clientModel.js";
 import config from '../utils/config.js';
 import { generateToken } from "../middlewares/authMiddleware.js";
 
@@ -8,12 +8,12 @@ export const register = async (req, res) => {
     try {
         const { fullName, password, role, phoneNumber, invitationCode } = req.body;
         
-        await User.findOne({ phoneNumber });
+        await Client.findOne({ phoneNumber });
 
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(password, salt);
 
-        const newClient = new User({
+        const newClient = new Client({
             fullName, 
             password: hashedPassword,
             role,
@@ -34,7 +34,7 @@ export const register = async (req, res) => {
 
 export const getAllClients = async (req, res) => {
     try {
-        const Clients = await User.find({ "role": "client" }, { "password": 0, "__v": 0 });
+        const Clients = await Client.find({ "role": "client" }, { "password": 0, "__v": 0 });
         res.status(200).json({ success: true, data: Clients });
     }
     catch (error) {
@@ -46,7 +46,7 @@ export const getAllClients = async (req, res) => {
 export const getClientById = async (req, res) => {
     try {
         const { id } = req.params;
-        const Client = await User.findById(id, { password: 0, __v: 0 });
+        const Client = await Client.findById(id, { password: 0, __v: 0 });
 
         res.status(200).json({ success: true, data: Client });
     } catch (error) {
@@ -58,7 +58,7 @@ export const getClientById = async (req, res) => {
 export const updateClient = async (req, res) => {
     try {
         const { id } = req.params;
-        const updateClient = await User.findByIdAndUpdate(id, req.body, { new: true });
+        const updateClient = await Client.findByIdAndUpdate(id, req.body, { new: true });
 
         res.status(200).json({ success: true, message: 'Client updated successfully', data: updateClient });
     }
@@ -72,7 +72,7 @@ export const updateClient = async (req, res) => {
 export const deleteClient = async (req, res) => {
     try {
         const { id } = req.params;
-        await User.findByIdAndDelete(id);
+        await Client.findByIdAndDelete(id);
 
         res.status(200).json({ success: true, message: 'Client deleted successfully' });
     }

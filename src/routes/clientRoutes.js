@@ -6,19 +6,18 @@ import {
   updateClient,
   deleteClient,
 } from "../controllers/clientController.js";
-import userMiddleware from "../middlewares/userMiddleware.js";
 import { verifyToken } from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
 
-router.post("/register", userMiddleware, register);
+router.post("/register", register);
 
 router.get("/getAll", getAllClients);
 
-router.get("/getClient/:id", userMiddleware, getClientById);
+router.get("/getClient/:id", getClientById);
 
-router.patch("/update/:id", userMiddleware, updateClient);
+router.patch("/update/:id", updateClient);
 
-router.delete("/delete/:id", userMiddleware, deleteClient);
+router.delete("/delete/:id", deleteClient);
 
 export default router;
