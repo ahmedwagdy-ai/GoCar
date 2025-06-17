@@ -6,7 +6,7 @@ import { generateToken } from "../middlewares/authMiddleware.js";
 
 export const register = async (req, res) => {
     try {
-        const { fullName, password, role, phoneNumber, invitationCode } = req.body;
+        const { fullName, email, password, role, phoneNumber, invitationCode } = req.body;
         
         await Client.findOne({ phoneNumber });
 
@@ -14,7 +14,8 @@ export const register = async (req, res) => {
         const hashedPassword = await bcrypt.hash(password, salt);
 
         const newClient = new Client({
-            fullName, 
+            fullName,
+            email, 
             password: hashedPassword,
             role,
             phoneNumber,

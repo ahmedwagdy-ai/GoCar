@@ -7,19 +7,19 @@ import { generateToken } from "../middlewares/authMiddleware.js";
 // Login
 export const loginUser = async (req, res) => {
   try {
-    const { phoneNumber, password } = req.body;
+    const { email, password } = req.body;
 
-    let user = await Client.findOne({ phoneNumber });
+    let user = await Client.findOne({ email });
     let userType = "Client";
 
     if (!user) {
-        user = await Driver.findOne({ phoneNumber });
+        user = await Driver.findOne({ email });
         userType = "Driver";
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      logger.warn(`Invalid password attempt for phone: ${phoneNumber}`);
+      logger.warn(`Invalid password attempt for phone: ${email}`);
       return res
         .status(401)
         .json({ message: "Invalid Phone Number or Password." });
@@ -27,13 +27,14 @@ export const loginUser = async (req, res) => {
 
     const token = generateToken(user);
 
-    logger.info(`User logged in successfully as ${userType}: ${phoneNumber}`);
+    logger.info(`User logged in successfully as ${userType}: ${email}`);
 
     res.status(200).json({
       token,
       user: {
         id: user._id,
-        phoneNumber: user.phoneNumber,
+        email: user.email,
+        role: user.role,
       },
     });
   } catch (error) {

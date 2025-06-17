@@ -9,7 +9,7 @@ import { generateToken } from "../middlewares/authMiddleware.js";
 // register
 export const register = async (req, res) => {
     try {
-        const { fullName, password, role, phoneNumber, companyNumber, invitationCode } = req.body;
+        const { fullName, email, password, role, phoneNumber, companyNumber, invitationCode } = req.body;
         
         await Driver.findOne({ phoneNumber });
 
@@ -28,7 +28,8 @@ export const register = async (req, res) => {
         }
 
         const newDriver = new Driver({
-            fullName, 
+            fullName,
+            email,
             password: hashedPassword,
             role,
             phoneNumber, 
