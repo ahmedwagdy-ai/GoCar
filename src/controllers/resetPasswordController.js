@@ -3,6 +3,7 @@ import { generateCode } from '../utils/generateCode.js';
 import { sendMail } from '../services/sendMail.js';
 import bcrypt from 'bcryptjs';
 
+
 export const requestPasswordReset = async (req, res) => {
     const { email } = req.body;
     try {

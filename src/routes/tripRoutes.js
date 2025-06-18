@@ -1,5 +1,6 @@
 import express from "express";
 import {
+  requestTrip,
   getNewTrips,
   acceptTrip,
   rejectTrip,
@@ -14,6 +15,8 @@ import {
 } from "../controllers/tripController.js";
 
 const router = express.Router();
+
+router.post("/request", requestTrip);
 
 router.get("/newTrips", getNewTrips);
 

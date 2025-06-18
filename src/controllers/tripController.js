@@ -2,12 +2,73 @@ import Trip from "../models/tripModel.js";
 import logger from "../utils/logger.js";
 import Driver from "../models/driverModel.js"
 import Client from "../models/clientModel.js";
+import DriverShift from "../models/driverShiftModel.js";
+import { generateCode } from '../utils/generateCode.js';
 import config from "../utils/config.js";
+
+
+// request trip
+export const requestTrip = async (req, res) => {
+  try {
+    const {
+      client,
+      driverShift,
+      rideType,
+      startLocation,
+      endLocation,
+      price,
+      paymentMethod
+    } = req.body;
+
+    await Client.findById(client);
+    const driverShiftDoc = await DriverShift.findById(driverShift);
+
+    const driver = await Driver.findById(driverShiftDoc.driver);
+    if (paymentMethod === "cash" && !driver.acceptCash) {
+      return res.status(400).json({ 
+        success: false, 
+        message: "This driver does not accept cash payments" 
+      });
+    }
+
+    const tripCode = generateCode();
+
+    const trip = new Trip({
+      client,
+      driverShift,
+      rideType,
+      startLocation,
+      endLocation,
+      price,
+      paymentMethod,
+      tripCode
+    });
+
+    await trip.save();
+
+    res.status(201).json({ success: true, message: "Trip requested successfully", data: trip });
+  } catch (error) {
+    logger.error("Error requesting trip:", error);
+    res.status(500).json({ success: false, message: "Error requesting trip", error: error.message });
+  }
+};
+
 
 // get new trips
 export const getNewTrips = async (req, res) => {
   try {
-    const trips = await Trip.find({ status: "pending" });
+     const trips = await Trip.find({ status: "pending" })
+      .populate({
+        path: "client",
+        select: "fullName email phoneNumber isActive", 
+      })
+      .populate({
+        path: "driverShift",
+        select: "carType status startTime",
+        populate: {
+          path: "driver",
+          select: "fullName email phoneNumber status acceptCash",
+        }, });
     res.status(200).json({ success: true, data: trips });
   } catch (error) {
     logger.error(`Error getting trips: ${error.message}`);
@@ -28,6 +89,14 @@ export const acceptTrip = async (req, res) => {
     trip.status = "accepted";
     await trip.save();
 
+    await DriverShift.findByIdAndUpdate(
+    trip.driverShift,
+    { $push: { trips: trip._id } }
+);
+    await Driver.findByIdAndUpdate(
+    trip.driver,
+    { $push: { trips: trip._id } }
+);
     res.status(200).json({ success: true, message: "Trip accepted", data: trip });
   } catch (error) {
     logger.error(`Error accepting trip: ${error.message}`);
@@ -145,7 +214,7 @@ export const cancelTrip = async (req, res) => {
 // get all trips
 export const getAllTrips = async (req, res) => {
   try {
-    const trips = await Trip.find().populate("client driver");
+    const trips = await Trip.find().populate("client driverShift");
     res.status(200).json({ success: true, data: trips });
   } catch (error) {
     logger.error(`Error getting all Trips: ${error.message}`);
@@ -158,7 +227,7 @@ export const getAllTrips = async (req, res) => {
 export const getTripById = async (req, res) => {
   try {
     const { id } = req.params;
-    const trip = await Trip.findById(id).populate("client driver");
+    const trip = await Trip.findById(id).populate("client driverShift");
   
     res.status(200).json({ success: true, data: trip });
   } catch (error) {

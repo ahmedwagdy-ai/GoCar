@@ -68,7 +68,7 @@ export const endShift = async (req, res) => {
 // get all
 export const getAllShifts = async (req, res) => {
   try {
-    const shifts = await DriverShift.find();
+    const shifts = await DriverShift.find().populate("trips");
     res.status(200).json({ success: true, data: shifts });
   } catch (error) {
     logger.error(`Error getting all DriverShifts: ${error.message}`);
@@ -81,7 +81,7 @@ export const getAllShifts = async (req, res) => {
 export const getShiftById = async (req, res) => {
   try {
     const { id } = req.params;
-    const shift = await DriverShift.findById(id);
+    const shift = await DriverShift.findById(id).populate("trips");
 
     res.status(200).json({ success: true, data: shift });
   } catch (error) {

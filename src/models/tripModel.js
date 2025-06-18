@@ -2,8 +2,9 @@ import mongoose from "mongoose";
 
 const tripSchema = new mongoose.Schema({
   client: { type: mongoose.Schema.Types.ObjectId, ref: "Client", required: true },
-  driver: { type: mongoose.Schema.Types.ObjectId, ref: "Driver", required: true },
-  carType: { type: String, required: true },
+  driver: { type: mongoose.Schema.Types.ObjectId, ref: "Driver"},
+  driverShift : { type: mongoose.Schema.Types.ObjectId, ref: "DriverShift", required: true },
+  carType: { type: String },
   rideType: { type: String, enum: ["normal", "scheduled"], required: true },
   startLocation: {
     address: { type: String },
@@ -36,4 +37,4 @@ const tripSchema = new mongoose.Schema({
   }
 }, { timestamps: true });
 
-export default mongoose.model("trip", tripSchema);
+export default mongoose.model("Trip", tripSchema);
