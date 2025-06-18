@@ -14,6 +14,8 @@ export const requestTrip = async (req, res) => {
       client,
       driverShift,
       rideType,
+      scheduledTime,
+      notes,
       startLocation,
       endLocation,
       price,
@@ -37,6 +39,8 @@ export const requestTrip = async (req, res) => {
       client,
       driverShift,
       rideType,
+      scheduledTime,
+      notes,
       startLocation,
       endLocation,
       price,
@@ -222,6 +226,92 @@ export const getAllTrips = async (req, res) => {
   }
 };
 
+// get normal trips
+export const getNormalTrips = async (req, res) => {
+  try {
+    const trips = await Trip.find( { rideType: "normal" } ).populate("client driverShift");
+    res.status(200).json({ success: true, data: trips });
+  } catch (error) {
+    logger.error(`Error getting normal Trips: ${error.message}`);
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+// get scheduled trips
+export const getScheduledTrips = async (req, res) => {
+  try {
+    const trips = await Trip.find( { rideType: "scheduled" } ).populate("client driverShift");
+    res.status(200).json({ success: true, data: trips });
+  } catch (error) {
+    logger.error(`Error getting scheduled Trips: ${error.message}`);
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+// get scheduled trips for today
+export const getScheduledTripsToday = async (req, res) => {
+  try {
+    const startOfDay = new Date();
+    startOfDay.setHours(0, 0, 0, 0);
+
+    const endOfDay = new Date();
+    endOfDay.setHours(23, 59, 59, 999);
+
+    const trips = await Trip.find({
+      rideType: "scheduled",
+      scheduledTime: { $gte: startOfDay, $lt: endOfDay }
+    }).populate("client driverShift");
+
+    res.status(200).json({ success: true, data: trips });
+  } catch (error) {
+    logger.error(`Error getting scheduled Trips: ${error.message}`);
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+
+// get scheduled trips for tomorrow
+export const getScheduledTripsTomorrow = async (req, res) => {
+  try {
+    const startOfTomorrow = new Date();
+    startOfTomorrow.setDate(startOfTomorrow.getDate() + 1);
+    startOfTomorrow.setHours(0, 0, 0, 0);
+
+    const endOfTomorrow = new Date();
+    endOfTomorrow.setDate(endOfTomorrow.getDate() + 1);
+    endOfTomorrow.setHours(23, 59, 59, 999);
+
+    const trips = await Trip.find({
+      rideType: "scheduled",
+      scheduledTime: { $gte: startOfTomorrow, $lt: endOfTomorrow }
+    }).populate("client driverShift");
+
+    res.status(200).json({ success: true, data: trips });
+  } catch (error) {
+    logger.error(`Error getting scheduled Trips: ${error.message}`);
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+// get scheduled trips after tomorrow
+export const getScheduledTripsAfterTomorrow = async (req, res) => {
+  try {
+    const endOfTomorrow = new Date();
+    endOfTomorrow.setDate(endOfTomorrow.getDate() + 1);
+    endOfTomorrow.setHours(23, 59, 59, 999);
+
+    const trips = await Trip.find({
+      rideType: "scheduled",
+      scheduledTime: { $gt: endOfTomorrow }
+    }).populate("client driverShift");
+
+    res.status(200).json({ success: true, data: trips });
+  } catch (error) {
+    logger.error(`Error getting scheduled Trips: ${error.message}`);
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
 
 // get trip by id
 export const getTripById = async (req, res) => {
@@ -265,5 +355,26 @@ export const deleteTrip = async (req, res) => {
   }
 };
 
+
+// passenger rating
+export const ratePassenger = async (req, res) => {
+  try {
+    const { id } = req.params; 
+    const { rating } = req.body; 
+
+    if (!rating || rating < 1 || rating > 5) {
+      return res.status(400).json({ success: false, message: "Rating must be between 1 and 5" });
+    }
+    const trip = await Trip.findById(id);
+
+    trip.passengerRating = rating;
+    await trip.save();
+
+    res.status(200).json({ success: true, message: "Passenger rated successfully", data: trip });
+  } catch (error) {
+    logger.error(`Error rating passenger: ${error.message}`);
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
 
 

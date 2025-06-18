@@ -32,3 +32,4 @@
 {"level":"error","message":"Error getting all DriverShifts: Schema hasn't been registered for model \"Trip\".\nUse mongoose.model(name, schema)","timestamp":"2025-06-18T11:06:54.887Z"}
 {"level":"error","message":"Error getting all DriverShifts: Schema hasn't been registered for model \"Trip\".\nUse mongoose.model(name, schema)","timestamp":"2025-06-18T11:06:56.105Z"}
 {"level":"error","message":"Error accepting trip: Cannot read properties of null (reading 'status')","timestamp":"2025-06-18T11:21:10.234Z"}
+{"level":"error","message":"Error rating passenger: Cannot destructure property 'rating' of 'req.body' as it is undefined.","timestamp":"2025-06-18T13:03:53.825Z"}

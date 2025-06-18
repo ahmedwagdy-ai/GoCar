@@ -6,6 +6,8 @@ const tripSchema = new mongoose.Schema({
   driverShift : { type: mongoose.Schema.Types.ObjectId, ref: "DriverShift", required: true },
   carType: { type: String },
   rideType: { type: String, enum: ["normal", "scheduled"], required: true },
+  scheduledTime: { type: Date },
+  notes: { type: String, maxlength: 500 },
   startLocation: {
     address: { type: String },
     lat: { type: Number },
@@ -30,11 +32,12 @@ const tripSchema = new mongoose.Schema({
   tripDuration: { type: Number },
   cancelReason: { type: String },
   tripCode: { type: String, unique: true },
-  rating: { 
-    type: Number, 
-    min: [1], 
-    max: [5]
-  }
+  passengerRating: {
+  type: Number,
+  min: 1,
+  max: 5
+}
+
 }, { timestamps: true });
 
 export default mongoose.model("Trip", tripSchema);

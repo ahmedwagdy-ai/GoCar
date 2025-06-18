@@ -9,9 +9,15 @@ import {
   endTrip,
   cancelTrip,
   getAllTrips,
+  getNormalTrips,
+  getScheduledTrips,
+  getScheduledTripsToday,
+  getScheduledTripsTomorrow,
+  getScheduledTripsAfterTomorrow,
   getTripById,
   updateTrip,
-  deleteTrip
+  deleteTrip,
+  ratePassenger
 } from "../controllers/tripController.js";
 
 const router = express.Router();
@@ -34,10 +40,22 @@ router.patch("/cancel/:id", cancelTrip);
 
 router.get("/allTrips", getAllTrips);
 
+router.get("/normal", getNormalTrips);
+
+router.get("/scheduled", getScheduledTrips);
+
+router.get("/scheduled/today", getScheduledTripsToday);
+
+router.get("/scheduled/tomorrow", getScheduledTripsTomorrow);
+
+router.get("/scheduled/afterTomorrow", getScheduledTripsAfterTomorrow);
+
 router.get("/getTrip/:id", getTripById);
 
 router.patch("/update/:id", updateTrip);
 
 router.delete("/delete/:id", deleteTrip);
+
+router.patch("/ratePassenger/:id", ratePassenger);
 
 export default router;
