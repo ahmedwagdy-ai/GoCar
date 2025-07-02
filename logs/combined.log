@@ -1,0 +1,509 @@
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:22:37.318Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:22:47.918Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:22:48.649Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:22:51.276Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:22:52.002Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:24:27.815Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:24:28.619Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:24:34.922Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:24:35.641Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:24:38.844Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:24:39.856Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:24:40.579Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:25:26.828Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:25:27.540Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:25:34.331Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:25:35.244Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:25:39.203Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:25:40.629Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:25:41.418Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:25:54.260Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:25:55.012Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:25:57.604Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:25:58.876Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:25:59.604Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:26:07.094Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:26:07.873Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:26:08.895Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:26:09.642Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:29:22.039Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:29:22.948Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:33:18.055Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:33:18.993Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:33:23.263Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:33:24.114Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:33:29.223Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:33:30.188Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:33:35.050Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:33:36.693Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:33:44.862Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:33:45.597Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:33:58.556Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:33:59.453Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:34:12.617Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:34:13.383Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:34:16.313Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:34:17.070Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:34:19.953Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:34:21.629Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:34:22.400Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:34:35.794Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:34:36.531Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:34:38.932Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:34:44.434Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:34:50.276Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:34:51.185Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:34:53.520Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:34:54.552Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:37:19.235Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:37:19.992Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:37:25.080Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:37:25.959Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:37:30.745Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:37:31.481Z"}
+{"level":"info","message":"User logged in successfully as Driver: 0123456789101","timestamp":"2025-06-17T20:38:57.475Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:43:19.198Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:43:19.976Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:43:20.824Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:43:21.589Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:43:31.741Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:43:33.105Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:43:33.821Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:43:59.759Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:44:00.512Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:44:07.906Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:44:08.792Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:44:17.556Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:44:19.858Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:44:20.614Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:44:24.011Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:44:24.739Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:44:25.612Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:44:26.335Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:44:45.773Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:44:46.521Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T20:45:07.857Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T20:45:08.603Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:18:03.644Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:18:05.434Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:25:09.992Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:25:12.817Z"}
+{"level":"error","message":"Error registering Driver: Driver validation failed: email: Path `email` is required.","timestamp":"2025-06-17T21:27:28.410Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:27:28 +0000] \"POST /api/driver/register HTTP/1.1\" 500 88 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:27:28.413Z"}
+{"level":"info","message":"User logged in successfully as Driver: ahmedwagdy@gmail.com","timestamp":"2025-06-17T21:28:32.109Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:28:49.053Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:28:49 +0000] \"GET /api/driver/getDriver/68498d2783e1504989bcb408 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:28:49.054Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:28:52.246Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:28:52 +0000] \"GET /api/driver/getDriver/68498d2783e1504989bcb408 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:28:52.247Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:28:53.164Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:28:53 +0000] \"GET /api/driver/getDriver/68498d2783e1504989bcb408 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:28:53.165Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:28:54.149Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:28:54 +0000] \"GET /api/driver/getDriver/68498d2783e1504989bcb408 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:28:54.150Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:00.635Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:00 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:00.636Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:02.007Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:02 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:02.008Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:03.363Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:03 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:03.364Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:04.407Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:04 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:04.408Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:05.265Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:05 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:05.266Z"}
+{"level":"error","message":"Error getting Driver by ID: Cannot access 'Driver' before initialization","timestamp":"2025-06-17T21:29:06.338Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:29:06 +0000] \"GET /api/driver/getDriver/6851dddb1cbeede90a9bce69 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:29:06.339Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:44.317Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:45.901Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:48.257Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:49.780Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:30:50.498Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:30:55.980Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:30:56.741Z"}
+{"level":"error","message":"Error deleting Driver: Cast to ObjectId failed for value \"68498d2783e1504989bcb408f\" (type string) at path \"_id\" for model \"Driver\"","timestamp":"2025-06-17T21:31:57.423Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:31:57 +0000] \"DELETE /api/driver/delete/68498d2783e1504989bcb408f HTTP/1.1\" 500 144 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:31:57.424Z"}
+{"level":"error","message":"Error deleting Driver: Cast to ObjectId failed for value \"68498d2783e1504989bcb40\" (type string) at path \"_id\" for model \"Driver\"","timestamp":"2025-06-17T21:32:04.502Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:32:04 +0000] \"DELETE /api/driver/delete/68498d2783e1504989bcb40 HTTP/1.1\" 500 142 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:32:04.503Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:35:27 +0000] \"PATCH /api/driver/acceptCash/6851dddb1cbeede90a9bce69 HTTP/1.1\" 404 187 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:35:27.854Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:35:54.990Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:35:56.282Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:35:57.017Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:37:53.150Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:37:54.470Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:37:57.267Z"}
+{"level":"error","message":"Error getting Client by ID: Cannot access 'Client' before initialization","timestamp":"2025-06-17T21:39:52.159Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:39:52 +0000] \"GET /api/client/getClient/6851e06ee5f7c5a7c7323da3 HTTP/1.1\" 500 42 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:39:52.161Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:07.073Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:07.839Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:10.066Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:10.778Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:12.823Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:13.548Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:15.488Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:16.192Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:40:22.997Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:40:23.821Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:42:13.753Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:42:14.507Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:42:44.447Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:42:45.176Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:42:46.555Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:42:47.324Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:01.254Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:43:01.960Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:04.308Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:43:05.017Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:07.360Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:08.713Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:43:09.422Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:12.139Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:43:13.349Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:43:14.108Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:47:52 +0000] \"POST /api/driverShift/start HTTP/1.1\" 404 161 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:47:52.281Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:48:19.131Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:48:19.876Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:49:58 +0000] \"POST /api/driverShift/end/6851e2a906d28afcfd26d80d HTTP/1.1\" 404 184 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:49:58.151Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:50:02 +0000] \"POST /api/driverShift/end/6851e2a906d28afcfd26d80d HTTP/1.1\" 404 184 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:50:02.030Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:50:13.785Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:50:14.543Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:51:16 +0000] \"PATCH /api/driverShift/end/6851e2a906d28afcfd26d80d HTTP/1.1\" 400 50 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:51:16.632Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:52:04 +0000] \"PATCH /api/driverShift/getAll HTTP/1.1\" 404 163 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:52:04.862Z"}
+{"level":"error","message":"Error getting all DriverShifts: Cannot populate path `client` because it is not in your schema. Set the `strictPopulate` option to false to override.","timestamp":"2025-06-17T21:52:09.654Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:52:09 +0000] \"GET /api/driverShift/getAll HTTP/1.1\" 500 147 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:52:09.656Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:52:49.034Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:52:49.773Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:53:50.844Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:53:51.594Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:54:03.279Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:54:03.996Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:54:07.651Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:54:08.367Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:54:12.338Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:54:13.066Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:54:41 +0000] \"PATCH /api/driverShift/end/6851e2a906d28afcfd26d80d HTTP/1.1\" 400 50 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:54:41.216Z"}
+{"level":"error","message":"Error ending DriverShift: DriverShift validation failed: status: `inactive` is not a valid enum value for path `status`.","timestamp":"2025-06-17T21:54:59.595Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:54:59 +0000] \"PATCH /api/driverShift/end/6851e41199d80e50489d3ece HTTP/1.1\" 500 124 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:54:59.596Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:55:18.102Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:55:18.862Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:56:03 +0000] \"PATCH /api/driverShift/getShift/6851e41199d80e50489d3ece HTTP/1.1\" 404 190 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:56:03.772Z"}
+{"level":"error","message":"Error getting DriverShift by ID: Cannot populate path `client` because it is not in your schema. Set the `strictPopulate` option to false to override.","timestamp":"2025-06-17T21:56:11.988Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:21:56:11 +0000] \"GET /api/driverShift/getShift/6851e41199d80e50489d3ece HTTP/1.1\" 500 147 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T21:56:11.990Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:56:23.494Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:56:24.512Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:58:38.936Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:58:39.670Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:58:45.250Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:58:45.963Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T21:58:51.347Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T21:58:52.085Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T22:07:58.365Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T22:07:59.136Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:22:08:01 +0000] \"POST /api/auth/forget-password HTTP/1.1\" 500 76 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T22:08:01.531Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T22:11:09.014Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T22:11:53.220Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T22:11:53.932Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T22:13:29.865Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T22:13:30.611Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T22:13:53.995Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T22:13:54.703Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:22:14:02 +0000] \"POST /api/auth/forget-password HTTP/1.1\" 500 76 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T22:14:02.362Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:22:14:04 +0000] \"POST /api/auth/forget-password HTTP/1.1\" 500 76 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T22:14:04.307Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:22:14:06 +0000] \"POST /api/auth/forget-password HTTP/1.1\" 500 76 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T22:14:06.209Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:22:18:31 +0000] \"POST /api/auth/forget-password HTTP/1.1\" 500 76 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T22:18:31.045Z"}
+{"level":"info","message":"::1 - - [17/Jun/2025:22:18:34 +0000] \"POST /api/auth/forget-password HTTP/1.1\" 500 76 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-17T22:18:34.139Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-17T22:27:13.061Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-17T22:27:15.850Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T00:09:17.123Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T00:09:19.442Z"}
+{"_message":"trip validation failed","errors":{"carType":{"kind":"required","message":"Path `carType` is required.","name":"ValidatorError","path":"carType","properties":{"message":"Path `carType` is required.","path":"carType","type":"required"}}},"level":"error","message":"Error requesting trip: trip validation failed: carType: Path `carType` is required.","stack":"ValidationError: trip validation failed: carType: Path `carType` is required.\n    at Document.invalidate (C:\\Users\\AHMAD\\Desktop\\GoCar\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at C:\\Users\\AHMAD\\Desktop\\GoCar\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at C:\\Users\\AHMAD\\Desktop\\GoCar\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-06-18T00:09:54.350Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:00:09:54 +0000] \"POST /api/trip/request HTTP/1.1\" 500 122 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T00:09:54.352Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T00:10:37.392Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T00:10:38.252Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T00:10:44.254Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T00:10:45.294Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T00:10:52.873Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T00:10:53.828Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T00:10:55.484Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T00:10:56.934Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T00:11:03.154Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T00:11:04.162Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:10:32.861Z"}
+{"level":"error","message":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.j6ercng.mongodb.net","timestamp":"2025-06-18T10:10:32.868Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:10:44.683Z"}
+{"level":"error","message":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.j6ercng.mongodb.net","timestamp":"2025-06-18T10:10:44.690Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:11:37.699Z"}
+{"level":"error","message":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.j6ercng.mongodb.net","timestamp":"2025-06-18T10:11:37.706Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:12:33.588Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:12:34.538Z"}
+{"_message":"trip validation failed","errors":{"carType":{"kind":"required","message":"Path `carType` is required.","name":"ValidatorError","path":"carType","properties":{"message":"Path `carType` is required.","path":"carType","type":"required"}}},"level":"error","message":"Error requesting trip: trip validation failed: carType: Path `carType` is required.","stack":"ValidationError: trip validation failed: carType: Path `carType` is required.\n    at Document.invalidate (C:\\Users\\AHMAD\\Desktop\\GoCar\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at C:\\Users\\AHMAD\\Desktop\\GoCar\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at C:\\Users\\AHMAD\\Desktop\\GoCar\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-06-18T10:12:38.374Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:10:12:38 +0000] \"POST /api/trip/request HTTP/1.1\" 500 122 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T10:12:38.379Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:12:55.212Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:12:56.208Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:13:46.604Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:13:47.929Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:13:48.996Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:13:54.802Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:13:56.023Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:14:01.464Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:14:02.448Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:14:04.764Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:14:05.487Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:14:10.096Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:14:11.183Z"}
+{"level":"error","message":"Error getting trips: Cannot populate path `driverShift` because it is not in your schema. Set the `strictPopulate` option to false to override.","timestamp":"2025-06-18T10:14:54.037Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:10:14:54 +0000] \"GET /api/trip/newTrips HTTP/1.1\" 500 152 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T10:14:54.042Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:15:20.692Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:15:21.586Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:15:35.224Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:15:36.300Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:15:43.762Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:15:44.831Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:15:54.420Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:15:56.535Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:16:00.645Z"}
+{"level":"error","message":"Error getting trips: Operation `trips.find()` buffering timed out after 10000ms","timestamp":"2025-06-18T10:16:13.116Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:10:16:13 +0000] \"GET /api/trip/newTrips HTTP/1.1\" 500 88 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T10:16:13.122Z"}
+{"level":"error","message":"Error getting trips: Operation `trips.find()` buffering timed out after 10000ms","timestamp":"2025-06-18T10:16:28.750Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:10:16:28 +0000] \"GET /api/trip/newTrips HTTP/1.1\" 500 88 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T10:16:28.752Z"}
+{"level":"error","message":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.j6ercng.mongodb.net","timestamp":"2025-06-18T10:17:34.236Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:18:52.571Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:18:54.166Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:21:03.534Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:21:04.748Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:22:16.894Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:22:23.968Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:27:21.500Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:27:22.423Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:27:24.438Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:27:25.451Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:27:26.355Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:33:00.323Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:33:01.298Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:33:06.542Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:33:07.361Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:33:08.546Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:33:09.867Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:33:12.854Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:33:13.975Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:33:15.146Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:33:36.348Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:33:37.420Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:34:49.564Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:34:51.108Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:34:54.195Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:34:58.300Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:35:00.042Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:35:38.825Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:35:39.785Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:37:02.850Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:37:03.813Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:37:08.992Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:37:10.324Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:37:19.390Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:37:20.399Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:37:27.662Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:37:29.775Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:56:42.738Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:56:48.564Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:56:50.136Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:56:52.876Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:57:11.585Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:57:12.492Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:57:36.471Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:57:37.665Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:57:42.732Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:57:43.792Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:57:50.210Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:57:51.342Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:57:52.576Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:57:53.749Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T10:59:02.246Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T10:59:03.353Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:01:05.131Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:01:06.938Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:01:07.790Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:01:13.689Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:01:14.866Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:04:27.361Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:04:28.522Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:04:30.701Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:04:31.861Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:04:32.975Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:04:36.342Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:04:37.948Z"}
+{"level":"error","message":"Error getting all DriverShifts: Cannot populate path `Trip` because it is not in your schema. Set the `strictPopulate` option to false to override.","timestamp":"2025-06-18T11:04:39.298Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:04:39 +0000] \"GET /api/driverShift/getAll HTTP/1.1\" 500 145 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:04:39.302Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:05:52.326Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:05:53.388Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:05:57.897Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:05:58.742Z"}
+{"level":"error","message":"Error getting all DriverShifts: Schema hasn't been registered for model \"Trip\".\nUse mongoose.model(name, schema)","timestamp":"2025-06-18T11:05:59.562Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:05:59 +0000] \"GET /api/driverShift/getAll HTTP/1.1\" 500 113 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:05:59.567Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:06:13.046Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:06:14.029Z"}
+{"level":"error","message":"Error getting all DriverShifts: Cannot populate path `Trips` because it is not in your schema. Set the `strictPopulate` option to false to override.","timestamp":"2025-06-18T11:06:15.819Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:06:15 +0000] \"GET /api/driverShift/getAll HTTP/1.1\" 500 146 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:06:15.823Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:06:30.141Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:06:31.579Z"}
+{"level":"error","message":"Error getting all DriverShifts: Schema hasn't been registered for model \"Trip\".\nUse mongoose.model(name, schema)","timestamp":"2025-06-18T11:06:31.700Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:06:31 +0000] \"GET /api/driverShift/getAll HTTP/1.1\" 500 113 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:06:31.705Z"}
+{"level":"error","message":"Error getting all DriverShifts: Schema hasn't been registered for model \"Trip\".\nUse mongoose.model(name, schema)","timestamp":"2025-06-18T11:06:53.187Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:06:53 +0000] \"GET /api/driverShift/getAll HTTP/1.1\" 500 113 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:06:53.189Z"}
+{"level":"error","message":"Error getting all DriverShifts: Schema hasn't been registered for model \"Trip\".\nUse mongoose.model(name, schema)","timestamp":"2025-06-18T11:06:54.887Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:06:54 +0000] \"GET /api/driverShift/getAll HTTP/1.1\" 500 113 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:06:54.889Z"}
+{"level":"error","message":"Error getting all DriverShifts: Schema hasn't been registered for model \"Trip\".\nUse mongoose.model(name, schema)","timestamp":"2025-06-18T11:06:56.105Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:06:56 +0000] \"GET /api/driverShift/getAll HTTP/1.1\" 500 113 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:06:56.106Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:09:16.773Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:09:17.796Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:11:15.026Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:11:16.252Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:12:01.473Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:12:02.418Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:12:06.047Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:12:07.268Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:18:12.789Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:18:14.368Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:18:15.489Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:19:41.572Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:19:42.637Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:19:49.924Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:19:50.983Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:20:20 +0000] \"PATCH /api/trip/accept/68529f1e8dd15f10a13a273a HTTP/1.1\" 400 49 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:20:20.097Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:20:23 +0000] \"PATCH /api/trip/accept/68529f1e8dd15f10a13a273a HTTP/1.1\" 400 49 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:20:23.085Z"}
+{"level":"error","message":"Error accepting trip: Cannot read properties of null (reading 'status')","timestamp":"2025-06-18T11:21:10.234Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:21:10 +0000] \"PATCH /api/trip/accept/68529f1e8dd15f10a13a273a HTTP/1.1\" 500 79 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:21:10.236Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:21:47.003Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:21:47.962Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:22:18.662Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:22:21.225Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:26:55.568Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:26:56.505Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:26:57.390Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:27:01.552Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:27:02.512Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:27:05.268Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:27:06.386Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:27:08.285Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:27:10.400Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:27:12.047Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:27:12.883Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:27:37.418Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:27:38.509Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:27:42.752Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:27:43.691Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:27:53.038Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:27:54.384Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:28:58 +0000] \"POST /api/trip/request HTTP/1.1\" 400 71 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:28:58.374Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:29:02 +0000] \"POST /api/trip/request HTTP/1.1\" 400 71 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:29:02.121Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:29:03 +0000] \"POST /api/trip/request HTTP/1.1\" 400 71 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:29:03.770Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:30:22 +0000] \"POST /api/trip/request HTTP/1.1\" 400 71 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:30:22.275Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:11:33:47 +0000] \"GET /api/trip/getAll HTTP/1.1\" 404 154 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T11:33:47.015Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:34:28.336Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:34:33.593Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T11:35:44.685Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T11:35:45.526Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:03:50.854Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:03:51.643Z"}
+{"level":"error","message":"Error rating passenger: Cannot destructure property 'rating' of 'req.body' as it is undefined.","timestamp":"2025-06-18T13:03:53.825Z"}
+{"level":"info","message":"::1 - - [18/Jun/2025:13:03:53 +0000] \"PATCH /api/trip/ratePassenger/6852a3547f09b28c63a901f5 HTTP/1.1\" 500 100 \"-\" \"PostmanRuntime/7.44.0\"","timestamp":"2025-06-18T13:03:53.830Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:10:11.569Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:10:14.341Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:10:15.117Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:10:22.182Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:10:23.305Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:10:25.203Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:10:26.266Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:10:41.326Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:10:42.719Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:10:51.147Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:10:53.228Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:11:15.541Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:11:16.623Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:11:48.059Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:11:48.790Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:11:54.452Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:11:55.187Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:12:12.566Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:12:15.249Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:12:15.999Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:13:33.374Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:13:34.257Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:17:43.163Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:17:44.939Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:17:45.689Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:17:46.549Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:17:47.322Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:17:51.800Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:17:52.587Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:17:55.115Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:17:57.002Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:17:58.123Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:17:59.641Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:18:00.772Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:18:02.706Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:18:05.916Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:18:34.173Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:18:34.921Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:18:40.899Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:18:41.638Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:18:51.764Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:18:52.768Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:18:56.960Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:18:57.717Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:18:59.194Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:19:00.545Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:19:05.136Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:19:05.865Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:19:21.490Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:19:22.293Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:19:23.856Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:19:24.628Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:19:27.459Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:19:28.209Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:19:32.348Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:19:33.083Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:19:40.729Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:19:41.478Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:19:42.805Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:19:43.986Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:19:49.191Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:19:50.337Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:19:51.182Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:22:53.239Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:22:54.016Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:24:29.469Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:24:30.254Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:24:36.000Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:24:36.779Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:24:39.531Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:24:40.739Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:24:44.796Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:24:45.554Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:25:11.463Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:25:12.925Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:25:13.648Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:25:47.542Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:25:48.310Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:27:02.719Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:27:03.547Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:27:04.613Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:27:05.361Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:27:06.477Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:27:07.899Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:27:08.630Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:27:15.410Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:27:16.130Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:28:51.770Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:28:55.127Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:28:55.883Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:29:13.698Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:29:14.709Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:29:15.441Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:29:18.081Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:29:19.561Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:29:21.040Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:29:21.791Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:29:22.730Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:29:23.450Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:29:24.479Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:29:25.217Z"}
+{"level":"info","message":"Server running on port 6000","timestamp":"2025-06-18T13:29:36.332Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T13:29:37.086Z"}
