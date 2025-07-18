@@ -1,61 +1,34 @@
-import express from "express";
+import express from 'express';
 import {
-  requestTrip,
-  getNewTrips,
-  acceptTrip,
-  rejectTrip,
-  inLocation,
-  startTrip,
-  endTrip,
+  createTrip,
+  // getTripById,
+  getMyTrips,
+  // updateTrip,
+  // deleteTrip,
   cancelTrip,
-  getAllTrips,
-  getNormalTrips,
-  getScheduledTrips,
-  getScheduledTripsToday,
-  getScheduledTripsTomorrow,
-  getScheduledTripsAfterTomorrow,
-  getTripById,
-  updateTrip,
-  deleteTrip,
-  ratePassenger
-} from "../controllers/tripController.js";
+  completeTrip,
+  rateTrip
+} from '../controllers/tripController.js';
+import {
+  createPaypalPayment,
+  capturePaypalPayment
+} from "../services/paypal.js";
+
 
 const router = express.Router();
 
-router.post("/request", requestTrip);
+//trip
+router.post('/', createTrip);
+router.get('/', getMyTrips);
+// router.get('/:id', getTripById);
+// router.put('/:id', updateTrip);
+// router.delete('/:id', deleteTrip);
+router.patch("/:id/cancel", cancelTrip);
+router.patch("/:id/complete", completeTrip);
+router.patch("/:id/rate", rateTrip);
 
-router.get("/newTrips", getNewTrips);
-
-router.patch("/accept/:id", acceptTrip);
-
-router.patch("/reject/:id", rejectTrip);
-
-router.patch("/arrived/:id", inLocation);
-
-router.patch("/start/:id", startTrip);
-
-router.patch("/end/:id", endTrip);
-
-router.patch("/cancel/:id", cancelTrip);
-
-router.get("/allTrips", getAllTrips);
-
-router.get("/normal", getNormalTrips);
-
-router.get("/scheduled", getScheduledTrips);
-
-router.get("/scheduled/today", getScheduledTripsToday);
-
-router.get("/scheduled/tomorrow", getScheduledTripsTomorrow);
-
-router.get("/scheduled/afterTomorrow", getScheduledTripsAfterTomorrow);
-
-router.get("/getTrip/:id", getTripById);
-
-router.patch("/update/:id", updateTrip);
-
-router.delete("/delete/:id", deleteTrip);
-
-router.patch("/ratePassenger/:id", ratePassenger);
+// payment
+router.post("/create-paypal", createPaypalPayment);
+router.post("/capture-paypal", capturePaypalPayment);
 
 export default router;

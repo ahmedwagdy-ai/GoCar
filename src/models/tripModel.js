@@ -1,43 +1,47 @@
 import mongoose from "mongoose";
 
 const tripSchema = new mongoose.Schema({
-  client: { type: mongoose.Schema.Types.ObjectId, ref: "Client", required: true },
-  driver: { type: mongoose.Schema.Types.ObjectId, ref: "Driver"},
-  driverShift : { type: mongoose.Schema.Types.ObjectId, ref: "DriverShift", required: true },
+  client: { type: mongoose.Schema.Types.ObjectId, ref: "Client", required: false },
+  driverId: { type: mongoose.Schema.Types.ObjectId, ref: "Driver", required: false },
+  driverShift: { type: mongoose.Schema.Types.ObjectId, ref: "DriverShift", required: false },
   carType: { type: String },
-  rideType: { type: String, enum: ["normal", "scheduled"], required: true },
-  scheduledTime: { type: Date },
+  passengerNo: { type: Number },
+  luggageNo: { type: Number },
+  currentLocation: {
+    address: String,
+    lat: Number,
+    lng: Number,
+  },
+  destination: {
+    address: String,
+    lat: Number,
+    lng: Number,
+  },
+  scheduledAt: { type: Date },
+  rideType: { type: String, enum: ["normal", "scheduled"] },
+  price: { type: Number },
+  paymentInfo: {
+    method: { type: String, enum: ["cash", "visa"], default: "cash" },
+    status: { type: String, enum: ["Pending", "Paid"], default: "Pending" }
+  },
   notes: { type: String, maxlength: 500 },
-  startLocation: {
-    address: { type: String },
-    lat: { type: Number },
-    lng: { type: Number }
+  tripCode: { type: String, unique: false },
+  status: {
+    type: String,
+    enum: ["Requested", "Accepted", "Rejected", "Arrived", "Ongoing", "Completed", "Cancelled", "Scheduled"],
+    default: "Requested"
   },
-  endLocation: {
-    address: { type: String },
-    lat: { type: Number },
-    lng: { type: Number }
+    rating: {
+    type: Number,
+    min: 1,
+    max: 5,
   },
-  price: { type: Number, required: true },
-  paymentMethod: { type: String, enum: ["cash", "visa"], required: true },
-  status: { 
-    type: String, 
-    enum: ["pending", "accepted", "rejected", "arrived", "ongoing", "completed", "cancelled"], 
-    default: "pending" 
-  },
-  cancelReason: { type: String },
-  startTime: { type: Date },
-  endTime: { type: Date },
-  tripDistance: { type: Number },
-  tripDuration: { type: Number },
-  cancelReason: { type: String },
-  tripCode: { type: String, unique: true },
-  passengerRating: {
-  type: Number,
-  min: 1,
-  max: 5
-}
-
+  review: {
+    type: String,
+    trim: true,
+  }
 }, { timestamps: true });
 
-export default mongoose.model("Trip", tripSchema);
+const Trip = mongoose.model("Trip", tripSchema);
+
+export default Trip;

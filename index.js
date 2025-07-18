@@ -3,8 +3,8 @@ import config from './src/utils/config.js';
 import logger from './src/utils/logger.js';
 
 
-const { port } = config;
+// const { port} = config;
 
-app.listen(port, () => {
-  logger.info(`Server running on port ${port}`);
+app.listen(config.port, () => {
+  console.log(`Server running on port ${config.port}`);
 });

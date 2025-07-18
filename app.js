@@ -5,8 +5,10 @@ import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import config from './src/utils/config.js';
 import logger from './src/utils/logger.js';
-import connectDB from './src/db/mongoDb.js';
+import connectDB from './src/db/mongoDB.js';
 import routes from './src/routes/index.js';
+import swaggerUi from 'swagger-ui-express';
+import swaggerSpec from './src/swagger/swagger.js';
 
 import dotenv from 'dotenv';
 dotenv.config();
@@ -34,7 +36,12 @@ app.use(limiter);
 // Database Connection
 connectDB();
 
+app.listen(config.port, () => {
+  console.log(`Server running on port ${config.port}`);
+});
 // Routes
 app.use('/api', routes);
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 export default app;
